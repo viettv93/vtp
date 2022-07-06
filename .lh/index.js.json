@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656945262012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656945262012,
+            "name": "Commit-0",
+            "content": "/**\n * @format\n */\n\nimport {AppRegistry} from 'react-native';\nimport App from './src/componeent/popup';\nimport {name as appName} from './app.json';\n\nAppRegistry.registerComponent(appName, () => App);\n"
+        }
+    ]
+}

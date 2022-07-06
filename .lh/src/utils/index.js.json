@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/utils/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1656948748916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656948899634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import {RFPercentage, RFValue} from 'react-native-responsive-fontsize'\r\n const fonts ={\r\n     beauSanProRegular: 'FS PFBeauSansPro-Regular',\r\n     beauSanProItalic: 'FS PFBeauSansPro-Italic',\r\n     beauSanProBold: 'FS PFBeauSansPro-Bold',\r\n@@ -10,6 +11,6 @@\n     red: '#EE0435',\r\n     yellow: '#F4AF38',\r\n     gray: '#EEEEEE'\r\n }\r\n-\r\n+const fontSize={}\r\n export {fonts, color}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656949168093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,14 @@\n     red: '#EE0435',\r\n     yellow: '#F4AF38',\r\n     gray: '#EEEEEE'\r\n }\r\n-const fontSize={}\r\n-export {fonts, color}\n\\ No newline at end of file\n+const fontSize={\r\n+    fontSite13:RFPercentage(2),\r\n+    fontSite14: RFPercentage(2.1538),\r\n+    fontSite15:RFPercentage(2.3076),\r\n+    fontSite16:RFPercentage(2.46153),\r\n+    fontSite17:RFPercentage(2.61538),\r\n+    fontSite18:RFPercentage(2.76923),\r\n+    fontSite20:RFPercentage(3.0769)\r\n+}\r\n+export {fonts, color, fontSize}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1656948748916,
+            "name": "Commit-0",
+            "content": "const fonts ={\r\n    beauSanProRegular: 'FS PFBeauSansPro-Regular',\r\n    beauSanProItalic: 'FS PFBeauSansPro-Italic',\r\n    beauSanProBold: 'FS PFBeauSansPro-Bold',\r\n}\r\nconst color={\r\n    white: '#FFFFFF',\r\n    black: '#000000',\r\n    blue: '#0172FF', \r\n    red: '#EE0435',\r\n    yellow: '#F4AF38',\r\n    gray: '#EEEEEE'\r\n}\r\n\r\nexport {fonts, color}"
+        }
+    ]
+}
